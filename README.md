@@ -1,0 +1,1 @@
+# FinCorpNet-A-Large-Scale-Temporal-Corporate-Ownership-Graph-for-Equity-Penetration-Analysis
