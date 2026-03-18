@@ -1,0 +1,2 @@
+data-public/ownership_edges/*.csv filter=lfs diff=lfs merge=lfs -text
+data-public/aux_relations/*.csv filter=lfs diff=lfs merge=lfs -text

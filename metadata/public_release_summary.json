@@ -1,0 +1,53 @@
+{
+  "release_name": "FinCorpNet-public-v0.3.0",
+  "release_version": "0.3.0",
+  "release_tier": "anonymized_public_release_subset",
+  "paper_scale_fraction": 0.01,
+  "years": [
+    1990,
+    2025
+  ],
+  "entity_count": 584000,
+  "ownership_edge_count": 3227000,
+  "aux_relation_count": 1561000,
+  "task_a_targets": {
+    "train": 16200,
+    "val": 4800,
+    "test": 5200
+  },
+  "task_b_groups": {
+    "train": 784,
+    "val": 269,
+    "test": 287
+  },
+  "entity_type_counts": {
+    "branch": 16505,
+    "company": 526565,
+    "institutional_investor": 7832,
+    "partnership": 33098
+  },
+  "ownership_flag_counts": {
+    "conflicting_events": 172416,
+    "cyclic_scc": 112198,
+    "date_from_filing": 1387584,
+    "minority_link": 510294,
+    "open_ended": 773310,
+    "overlap_interval": 344832,
+    "stake_change": 1169479,
+    "t_end_known": 2433380,
+    "t_end_unknown": 20310,
+    "weak_path": 399450
+  },
+  "aux_type_counts": {
+    "board_link": 425563,
+    "branch_link": 176500,
+    "executive_role": 324849,
+    "organizational_link": 475708,
+    "strategic_link": 158380
+  },
+  "task_b_instances": {
+    "train": 315,
+    "val": 134,
+    "test": 120
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FinCorpNet Task B Submission",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "instance_id",
+      "year",
+      "groups"
+    ],
+    "properties": {
+      "year": {
+        "type": "integer",
+        "minimum": 1900,
+        "maximum": 2100
+      },
+      "groups": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "controller",
+            "members",
+            "witness_edges"
+          ],
+          "properties": {
+            "controller": {
+              "type": "string"
+            },
+            "members": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "witness_edges": {
+              "type": "array",
+              "items": {
+                "type": "array",
+                "minItems": 2,
+                "maxItems": 2,
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "instance_id": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  }
+}

@@ -1,0 +1,13 @@
+flag,scope,meaning
+open_ended,temporal,relation ongoing as of extraction
+date_from_filing,temporal,start anchored from filing or registration date
+t_end_known,temporal,end date explicitly recorded in the source record
+t_end_unknown,temporal,end date missing in source while relation is retained
+stake_change,temporal,contiguous filings indicate a new segment
+overlap_interval,temporal,overlapping records resolved deterministically
+conflicting_events,temporal,conflicting repeated filings resolved by deterministic precedence
+cyclic_scc,structural,edge participates in a strongly connected component style region
+minority_link,structural,edge retained as contextual minority ownership link
+weak_path,quality,edge kept for completeness but usually below public evidence threshold
+id_conflict,entity,heterogeneous identifiers conflict so the record is retained without forced merge
+weak_match,entity,weak merge signal retained as ambiguity flag
