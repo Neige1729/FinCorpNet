@@ -1,0 +1,6 @@
+field,transformation
+entity_id,stable public surrogate identifier
+jurisdiction_code,normalized public jurisdiction code
+prov,source-family provenance channel
+source_identifier,not released in public tables
+source_name,not released in public tables
